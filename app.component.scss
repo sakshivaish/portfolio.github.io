@@ -1,0 +1,231 @@
+$bg-lgreen: #47bd96;
+
+
+.header-class {
+    height: 50px;
+    width: 100%;
+    background-color: $bg-lgreen;
+    color: #FFFFFF;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    .background{
+        background-image:url(src/assets/sakshi-beige-tiles.png);
+        
+    }
+
+    h3 {
+        
+        font-size: 1.875rem;
+        font-weight: 500;
+        margin: 0;
+        padding: 9px 0;
+        text-shadow: 2px 2px 2px rgba(1,1,1,.55);
+        letter-spacing: .025px;
+        
+    } 
+}
+
+.about-section{
+    height: 350px;
+    width: 1000px;
+    background-color: rgba(17, 236, 206, 0.28);
+    margin: 100px auto 50px auto;
+
+    h2{
+        font-size: 1.5rem;
+        color: #882f2f;
+        text-align: left;
+        padding: 30px 25px 15px;
+        text-shadow: 1px 1px rgba(2, 3, 5, 0.85);
+    }
+    .intro{
+        padding: 10px 0px 0px 70px;
+        font-size: 1rem;
+        color: #000000;
+        font-weight: 500;
+        width: 700px;
+        
+    }
+}
+
+.header-nav {
+    li {
+        line-height: 49px;
+        margin: 0 3px;
+        text-shadow: 0px 0px rgba(240, 253, 244, 0.8);
+    }
+
+    .menu-item-link {
+        font-size: 1rem;
+        color: #EFEFEF;
+        padding: 16px 15px;
+        font-weight: 500;        
+        text-transform: lowercase;
+        transition: all 300ms linear;
+        &:hover {
+            text-decoration: none;
+            background: #FFFFFF;
+            color: #47bd96;
+        }
+    }
+}
+
+
+.abt-content {
+    position: relative;
+    
+    .img-container {
+        position: absolute;
+        top: 40px;
+        right: 45px;
+        border-radius: 50%;
+        background-image: url(../assets/2017-10-27-11-17-17-600.jpg);
+        background-size: contain;
+        height: 225px;
+        width: 225px;
+        background-color:#f7f5f4;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+}
+.gallery-section{
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(228, 165, 23, 0.28);
+    margin: 50px auto;
+    h2{
+        font-size: 1.5rem;
+        color: #882f2f;
+        text-align: left;
+        padding: 30px 25px 15px;
+        text-shadow: 1px 1px rgba(2, 3, 5, 0.85);
+    }
+
+}
+* {
+    box-sizing:border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 0 auto;
+  
+}
+
+.mySlides {
+  display: none;
+  height: 350px;
+  width: 800px;
+  margin-left: 20px;
+  border: 5px solid #EFEFEF;
+  box-shadow: 1px 2px 4px rgba(1, 1, 1, .8);
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: 190px;
+  padding: 8px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  text-decoration: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  opacity: 1;  
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+.contact-section{
+    height: 300px;
+    width: 1000px;
+    background-color: rgba(239, 122, 138, 0.28);
+    margin: 50px auto;
+    h2{
+        font-size: 1.5rem;
+        color: #882f2f;
+        text-align: left;
+        padding: 30px 25px 15px;
+        text-shadow: 1px 1px rgba(2, 3, 5, 0.85);
+    }
+}
+.address-section{
+    height: 100px;
+    width: 100%;
+    padding: 0px 0px 0px 60px;
+    h3{
+        color: #000000;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px black;
+    }
+    p{
+        color: #d83a0bfa;
+        font-size: 1rem;
+        font-weight: 500;
+        text-shadow: 0px 0px rgba(8,8,8,0.70);
+    }
+    a {
+        text-shadow: 0px 0px rgba(1, 1, 1, 0.70);
+       &:hover{
+           text-decoration: none;
+           color: red;
+       } 
+    
+    }
+}
+.footer-section{
+    height: 40px;
+    width: 100%;
+    background-color: #47bd96;
+    
+    .style{
+        padding-top: 18px;
+    }
+}
+.fitting{
+    padding-bottom: 52px;
+}

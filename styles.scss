@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+$bgcolor: #b4b4b4;
+$text-color: #ffffff;
+$primary-font: 'Montserrat', sans-serif;
+
+html,body {
+    font-size: 16px;
+}
+
+body {
+    background-image:url(src/assets/sakshi-beige-tiles.png);
+    font-family: $primary-font;
+    overflow-x: hidden;
+    
+}
+
+.nopd {
+    padding: 0;
+}
